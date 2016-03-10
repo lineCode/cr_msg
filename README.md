@@ -1,2 +1,5 @@
-# cr_lib
-chromium browser base module and ipc module
+# cr_msg
+cr_msg是从chromium ipc消息处理部分抽取出来的代码，主要功能是提供消息的序列化、反序列化，
+以及消息的解析回调函数过程，部分与平台相关的代码以及去除，在vs2013编译测试通过
+
+
